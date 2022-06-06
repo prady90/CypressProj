@@ -1,0 +1,17 @@
+{
+  "name": "CypressProj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "validate":"cypress run --spec cypress/e2e/sample.cy.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^10.0.2"
+  }
+}
